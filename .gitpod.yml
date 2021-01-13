@@ -1,9 +1,4 @@
-image: gitpod/workspace-dotnet-vnc
-
-# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/43_config_ports/
 ports:
-  - port: 5000
-    onOpen: ignore
   - port: 5001
     onOpen: open-preview
 
